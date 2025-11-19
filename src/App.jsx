@@ -353,7 +353,7 @@ const App = () => {
               className="relative w-64 sm:w-80 lg:w-96 aspect-[2/3] book-shadow rounded-sm group block cursor-pointer border border-[#D4AF37]/20"
             >
               <img
-                src="coverg.jpg"
+                src="cover.jpg"
                 alt="How To Control The Game Book Cover"
                 className="absolute inset-0 w-full h-full object-cover z-20 rounded-sm"
                 onError={(e) => {
