@@ -3,7 +3,7 @@ import { ArrowRight, Star, BookOpen, Hand, EyeOff, ShieldAlert, Sword, User, Sho
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // REPLACE THIS WITH YOUR ACTUAL GOOGLE ANALYTICS MEASUREMENT ID
-const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX';
+const GA_MEASUREMENT_ID = 'G-L28GZ3JLT3';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -60,7 +60,7 @@ const App = () => {
     setAnalysisResult('');
 
     // Initialize Gemini API
-    const apiKey = "";
+    const apiKey = "AIzaSyAlLCAAFL6qOYfPX3n9BgTBH5h8QfySXw8";
 
     try {
       const genAI = new GoogleGenerativeAI(apiKey);
@@ -353,7 +353,7 @@ const App = () => {
               className="relative w-64 sm:w-80 lg:w-96 aspect-[2/3] book-shadow rounded-sm group block cursor-pointer border border-[#D4AF37]/20"
             >
               <img
-                src="cover.jpg"
+                src="coverg.jpg"
                 alt="How To Control The Game Book Cover"
                 className="absolute inset-0 w-full h-full object-cover z-20 rounded-sm"
                 onError={(e) => {
